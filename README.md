@@ -1,1 +1,1 @@
-# Medicine-Database
+# crud-go-typescript-mysql
