@@ -7,7 +7,7 @@ Langkah-langkah:
 
 ```java
 CREATE TABLE `obat` (
-  `id_obat` int(5) NOT NULL AUTO_INCREMENT,
+  `id_obat` int(5) NOT NULL primary key AUTO_INCREMENT,
   `kode_obat` varchar(10) DEFAULT NULL,
   `nama_obat` varchar(255) NOT NULL,
   `harga` int(255) NOT NULL,
