@@ -2,7 +2,7 @@
 
 Website sederhana untuk Create, Read, Update, dan Delete data MySQL dengan bahasa Go dan Typescript
 
-- Buat database bernama go_db dan sebuah tabel di database mysql dengan nama tabel users
+- Buat database bernama go_db dan sebuah tabel di database mysql dengan nama tabel obat
 
 ```java
 CREATE TABLE `obat` (
@@ -14,6 +14,6 @@ CREATE TABLE `obat` (
 ```
 
 - lanjut ketikan perintah ini di terminal atau di git command
-> git clone https://github.com/jadirullah/crud-dengan-go-mysql.git'
+> git clone https://github.com/dantaputra/crud-dengan-go-mysql.git'
 - terakhir, masuk ke dalam folder project go jalankan perintah
 > go run main.go'
