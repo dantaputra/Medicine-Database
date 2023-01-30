@@ -5,12 +5,11 @@ Website sederhana untuk Create, Read, Update, dan Delete data MySQL dengan bahas
 - Buat database bernama go_db dan sebuah tabel di database mysql dengan nama tabel users
 
 ```java
-CREATE TABLE `users` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `username` varchar(50) DEFAULT NULL,
-  `first_name` varchar(200) NOT NULL,
-  `last_name` varchar(200) NOT NULL,
-  `password` varchar(120) DEFAULT NULL
+CREATE TABLE `obat` (
+  `id_obat` int(5) NOT NULL AUTO_INCREMENT,
+  `kode_obat` varchar(10) DEFAULT NULL,
+  `nama_obat` varchar(255) NOT NULL,
+  `harga` int(255) NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
 
