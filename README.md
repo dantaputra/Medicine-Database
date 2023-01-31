@@ -6,12 +6,14 @@ Langkah-langkah:
 - Buat database bernama 'gosql' dan tabel di database mysql dengan nama tabel 'obat'
 
 ```java
+DROP TABLE IF EXISTS `obat`;
 CREATE TABLE `obat` (
-  `id_obat` int(11) NOT NULL primary key AUTO_INCREMENT,
-  `kode_obat` varchar(10) DEFAULT NULL,
-  `nama_obat` varchar(255) NOT NULL,
-  `harga` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id_obat` int(6) unsigned NOT NULL AUTO_INCREMENT,
+  `kode_obat` varchar(30) NOT NULL,
+  `nama_obat` varchar(30) NOT NULL,
+  `harga` varchar(30) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 ```
 
 - Lanjut ketikan perintah ini di terminal atau di git command
