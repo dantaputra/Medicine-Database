@@ -9,9 +9,9 @@ Langkah-langkah:
 DROP TABLE IF EXISTS `obat`;
 CREATE TABLE `obat` (
   `id_obat` int(6) unsigned NOT NULL AUTO_INCREMENT,
-  `kode_obat` varchar(30) NOT NULL,
-  `nama_obat` varchar(30) NOT NULL,
-  `harga` varchar(30) NOT NULL,
+  `kode_obat` varchar(10) NOT NULL,
+  `nama_obat` varchar(255) NOT NULL,
+  `harga` varchar(200) NOT NULL,
   PRIMARY KEY (`id_obat`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 ```
