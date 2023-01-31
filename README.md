@@ -17,6 +17,6 @@ CREATE TABLE `obat` (
 - Lanjut ketikan perintah ini di terminal atau di git command
 > git clone https://github.com/dantaputra/crud-go-typescript-mysql.git
 - Terakhir, masuk ke dalam folder project go jalankan perintah
-> go run main.go'
+> go run main.go
 - Buka browser dan buka link berikut
 > http://localhost:9000/
