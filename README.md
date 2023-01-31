@@ -25,5 +25,4 @@ CREATE TABLE `obat` (
 
 Tampilan website yang telah diisi beberapa data dapat dilihat pada gambar berikut
 
-
 ![Screenshot 2023-01-31 162021](https://user-images.githubusercontent.com/58434914/215720942-13cc0d57-7356-4fcd-a949-9f8dda6f217d.jpg)
