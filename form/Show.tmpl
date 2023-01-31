@@ -1,0 +1,10 @@
+{{ define "Show" }}
+  {{ template "Header" }}
+    {{ template "Menu"  }}
+    <h2> Obat ID {{ .IdObat }} </h2>
+      <p>Kode Obat: {{ .KodeObat }}</p>
+      <p>Nama Obat:  {{ .NamaObat }}</p>
+      <p>Harga:  {{ .Harga }}</p>
+      <br /> <a href="/edit?id_obat={{ .IdObat }}">Edit</a></p>
+  {{ template "Footer" }}
+{{ end }}

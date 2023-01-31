@@ -1,0 +1,32 @@
+{{ define "Index" }}
+  {{ template "Header" }}
+    {{ template "Menu"  }}
+    <h2> Daftar Obat </h2>
+    <table border="1">
+      <thead>
+      <tr>
+        <td>ID Obat</td>
+        <td>Kode Obat</td>
+        <td>Nama Obat</td>
+        <td>Harga</td>
+        <td>View</td>
+        <td>Edit</td>
+        <td>Delete</td>
+      </tr>
+       </thead>
+       <tbody>
+    {{ range . }}
+      <tr>
+        <td>{{ .IdObat }}</td>
+        <td> {{ .KodeObat }} </td>
+        <td>{{ .NamaObat }} </td>
+        <td>{{ .Harga}} </td>
+        <td><a href="/show?id_obat={{ .IdObat }}">View</a></td>
+        <td><a href="/edit?id_obat={{ .IdObat }}">Edit</a></td>
+        <td><a href="/delete?id_obat={{ .IdObat }}">Delete</a></td>
+      </tr>
+    {{ end }}
+       </tbody>
+    </table>
+  {{ template "Footer" }}
+{{ end }}

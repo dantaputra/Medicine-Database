@@ -1,0 +1,13 @@
+{{ define "Edit" }}
+  {{ template "Header" }}
+    {{ template "Menu" }} 
+   <h2>Edit Obat ID {{ .IdObat }} </h2>  
+    <form method="POST" action="update">
+      <input type="hidden" name="uid" value="{{ .IdObat }}" />
+      <label> Kode Obat </label><input type="text" name="kode_obat" value="{{ .KodeObat }}"  /><br /><br />
+      <label> Nama Obat </label><input type="text" name="nama_obat" value="{{ .NamaObat }}"  /><br /><br />
+      <label> Harga </label><input type="text" name="harga" value="{{ .Harga }}"  /><br /><br/>
+      <input type="submit" value="Save data" />
+    </form><br />    
+  {{ template "Footer" }}
+{{ end }}

@@ -1,0 +1,12 @@
+{{ define "New" }}
+  {{ template "Header" }}
+    {{ template "Menu" }} 
+   <h2>Tambah Obat</h2>  
+    <form method="POST" action="insert">
+      <label> Kode Obat </label><input type="text" name="kode_obat" /><br /><br />
+      <label> Nama Obat </label><input type="text" name="nama_obat" /><br /><br />
+      <label> Harga </label><input type="text" name="harga" /><br /><br />
+      <input type="submit" value="Save data" />
+    </form>
+  {{ template "Footer" }}
+{{ end }}
