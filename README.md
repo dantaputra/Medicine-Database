@@ -12,7 +12,7 @@ CREATE TABLE `obat` (
   `kode_obat` varchar(30) NOT NULL,
   `nama_obat` varchar(30) NOT NULL,
   `harga` varchar(30) NOT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id_obat`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 ```
 
