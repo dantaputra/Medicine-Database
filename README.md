@@ -1,4 +1,4 @@
-# crud-go-typescript-mysql
+# Website Database
 
 Website sederhana untuk Create, Read, Update, dan Delete data MySQL dengan bahasa Go dan Typescript
 
