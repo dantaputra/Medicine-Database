@@ -3,7 +3,7 @@
 Website sederhana untuk Create, Read, Update, dan Delete data MySQL dengan bahasa Go dan Typescript
 
 Langkah-langkah:
-- Buat database bernama go_db dan tabel di database mysql dengan nama tabel obat
+- Buat database bernama 'gosql' dan tabel di database mysql dengan nama tabel 'obat'
 
 ```java
 CREATE TABLE `obat` (
