@@ -16,9 +16,9 @@ CREATE TABLE `obat` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 ```
 
-- Lanjut ketikan perintah ini di terminal atau di git command
+- Ketikan perintah ini di terminal atau di git command
 > git clone https://github.com/dantaputra/crud-go-typescript-mysql.git
-- Terakhir, masuk ke dalam folder project go jalankan perintah
+- Masuk ke dalam folder project go dan jalankan perintah
 > go run main.go
 - Buka browser dan buka link berikut
 > http://localhost:8080/
