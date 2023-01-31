@@ -21,4 +21,4 @@ CREATE TABLE `obat` (
 - Terakhir, masuk ke dalam folder project go jalankan perintah
 > go run main.go
 - Buka browser dan buka link berikut
-> http://localhost:9000/
+> http://localhost:8080/
