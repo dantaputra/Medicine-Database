@@ -22,3 +22,5 @@ CREATE TABLE `obat` (
 > go run main.go
 - Buka browser dan buka link berikut
 > http://localhost:8080/
+
+![Screenshot 2023-01-31 162021](https://user-images.githubusercontent.com/58434914/215719742-540bdab4-4d16-4444-af80-af690f493a28.jpg)
